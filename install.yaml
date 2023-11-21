@@ -1,0 +1,51 @@
+$schema: https://aka.ms/winget-packages.schema.2.0.json
+CreationDate: "2023-11-11T01:34:16.715-00:00"
+Sources:
+  - Packages:
+      # essential
+      - PackageIdentifier: Brave.Brave
+      - PackageIdentifier: Google.Chrome
+      - PackageIdentifier: Google.JapaneseIME
+      - PackageIdentifier: Microsoft.PowerToys
+      - PackageIdentifier: Google.GoogleDrive
+
+      # development
+      - PackageIdentifier: Microsoft.DevHome
+      - PackageIdentifier: Git.Git
+      - PackageIdentifier: Microsoft.VisualStudioCode
+      - PackageIdentifier: 9P9TQF7MRM4R # WSL2
+      - PackageIdentifier: Docker.DockerDesktop
+      - PackageIdentifier: Microsoft.WindowsTerminal
+      - PackageIdentifier: Microsoft.PowerShell
+
+      # utility
+      - PackageIdentifier: voidtools.Everything
+      - PackageIdentifier: AntibodySoftware.WizTree
+      - PackageIdentifier: Iriun.IriunWebcam
+      - PackageIdentifier: MusicBrainz.Picard
+      - PackageIdentifier: emoacht.Monitorian
+      - PackageIdentifier: MSPCManager
+      - PackageIdentifier: 9PNGFQPS4FLH # wifinian
+      - PackageIdentifier: 9NBLGGH3ZD5H # screen rotate
+
+      # other
+      - PackageIdentifier: Discord.Discord
+      - PackageIdentifier: LINE.LINE
+      - PackageIdentifier: Microsoft.Office
+      - PackageIdentifier: OBSProject.OBSStudio
+      - PackageIdentifier: Valve.Steam
+      - PackageIdentifier: Zoom.Zoom
+      - PackageIdentifier: Spotify.Spotify
+    SourceDetails:
+      Argument: https://cdn.winget.microsoft.com/cache
+      Identifier: Microsoft.Winget.Source_8wekyb3d8bbwe
+      Name: winget
+      Type: Microsoft.PreIndexed.Package
+  - Packages:
+      - PackageIdentifier: XP89DCGQ3K6VLD
+    SourceDetails:
+      Argument: https://storeedgefd.dsx.mp.microsoft.com/v9.0
+      Identifier: StoreEdgeFD
+      Name: msstore
+      Type: Microsoft.Rest
+WinGetVersion: 1.6.2771

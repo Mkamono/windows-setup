@@ -1,6 +1,6 @@
 # Usage
-1. 管理者権限でPowerShell起動
-2. `Install-Module PSWindowsUpdate`
-3. `Get-WindowsUpdate`
-4. `Install-WindowsUpdate`
-5. `winget`コマンドのインストール(プリインストールされている?)
+1. Windows Update実行
+2. OneDriveリンク解除、アンインストール
+3. プリインストールソフトのアンインストール
+4. `winget`コマンドのインストール(プリインストールされている?)
+5. `winget import`でjsonファイルをインポート
