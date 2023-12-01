@@ -31,7 +31,6 @@ Sources:
       # other
       - PackageIdentifier: Discord.Discord
       - PackageIdentifier: LINE.LINE
-      - PackageIdentifier: Microsoft.Office
       - PackageIdentifier: OBSProject.OBSStudio
       - PackageIdentifier: Valve.Steam
       - PackageIdentifier: Zoom.Zoom
